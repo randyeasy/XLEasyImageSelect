@@ -1,0 +1,24 @@
+PODS:
+  - LLSimpleCamera (4.2.0)
+  - PureLayout (3.0.1)
+  - XLEasyImageSelect (0.1.0):
+    - LLSimpleCamera (~> 4.1)
+    - PureLayout
+    - XLEasyKitUtils (~> 0.1.0)
+  - XLEasyKitUtils (0.1.0):
+    - PureLayout
+
+DEPENDENCIES:
+  - XLEasyImageSelect (from `../`)
+
+EXTERNAL SOURCES:
+  XLEasyImageSelect:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LLSimpleCamera: ed7813ce4827ff3e34c6af159c99b5b56e54d1c6
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  XLEasyImageSelect: e9e60026a257700ca69d659e791862a7d2550982
+  XLEasyKitUtils: 7c5d89e041f875b3b8301b2fbc5c25d5f8eb3410
+
+COCOAPODS: 0.39.0

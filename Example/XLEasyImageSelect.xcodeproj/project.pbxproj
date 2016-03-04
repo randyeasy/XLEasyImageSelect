@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5462FEAE2035EA16DA6F0DCE /* Pods_XLEasyImageSelect_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8471726BFFE40EE35DFFF08C /* Pods_XLEasyImageSelect_Tests.framework */; };
+		12F3642A117D6AC1674FA887 /* libPods-XLEasyImageSelect_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 664642F146F680E304C2771D /* libPods-XLEasyImageSelect_Tests.a */; };
+		2552E4871C8967EA00080C4A /* XLEDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2552E4861C8967EA00080C4A /* XLEDemoViewController.m */; };
+		2552E4891C89692300080C4A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2552E4881C89692300080C4A /* Launch Screen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +24,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		ED293E12EDDB899BBA6D08B9 /* Pods_XLEasyImageSelect_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CD880EB22C099CCD7EA280 /* Pods_XLEasyImageSelect_Example.framework */; };
+		F0004F20D1FF6F3AB7061428 /* libPods-XLEasyImageSelect_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD22BE4D5B90FDCA0BAEE9A /* libPods-XLEasyImageSelect_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 /* Begin PBXFileReference section */
 		0064551FE5CC2F048827721E /* XLEasyImageSelect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XLEasyImageSelect.podspec; path = ../XLEasyImageSelect.podspec; sourceTree = "<group>"; };
 		227E56DBFE09856C0F8CAD26 /* Pods-XLEasyImageSelect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLEasyImageSelect_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLEasyImageSelect_Example/Pods-XLEasyImageSelect_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2552E4851C8967EA00080C4A /* XLEDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLEDemoViewController.h; sourceTree = "<group>"; };
+		2552E4861C8967EA00080C4A /* XLEDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLEDemoViewController.m; sourceTree = "<group>"; };
+		2552E4881C89692300080C4A /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2D254EA0CC50A0E19FFF6878 /* Pods-XLEasyImageSelect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLEasyImageSelect_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLEasyImageSelect_Tests/Pods-XLEasyImageSelect_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		545062064F6BF295024B5B36 /* Pods-XLEasyImageSelect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLEasyImageSelect_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLEasyImageSelect_Example/Pods-XLEasyImageSelect_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XLEasyImageSelect_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLEasyImageSelect_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,12 +64,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63CD880EB22C099CCD7EA280 /* Pods_XLEasyImageSelect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLEasyImageSelect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664642F146F680E304C2771D /* libPods-XLEasyImageSelect_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLEasyImageSelect_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8154E0CBE12AC773489D5F30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8471726BFFE40EE35DFFF08C /* Pods_XLEasyImageSelect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLEasyImageSelect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8CD6C6D05D23C063C2B6A872 /* Pods-XLEasyImageSelect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLEasyImageSelect_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLEasyImageSelect_Tests/Pods-XLEasyImageSelect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC7F341106EFC6DDC09FE9ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DBD22BE4D5B90FDCA0BAEE9A /* libPods-XLEasyImageSelect_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLEasyImageSelect_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				ED293E12EDDB899BBA6D08B9 /* Pods_XLEasyImageSelect_Example.framework in Frameworks */,
+				F0004F20D1FF6F3AB7061428 /* libPods-XLEasyImageSelect_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5462FEAE2035EA16DA6F0DCE /* Pods_XLEasyImageSelect_Tests.framework in Frameworks */,
+				12F3642A117D6AC1674FA887 /* libPods-XLEasyImageSelect_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				63CD880EB22C099CCD7EA280 /* Pods_XLEasyImageSelect_Example.framework */,
-				8471726BFFE40EE35DFFF08C /* Pods_XLEasyImageSelect_Tests.framework */,
+				DBD22BE4D5B90FDCA0BAEE9A /* libPods-XLEasyImageSelect_Example.a */,
+				664642F146F680E304C2771D /* libPods-XLEasyImageSelect_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,8 +140,11 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* XLEViewController.h */,
 				6003F5A6195388D20070C39A /* XLEViewController.m */,
+				2552E4851C8967EA00080C4A /* XLEDemoViewController.h */,
+				2552E4861C8967EA00080C4A /* XLEDemoViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				2552E4881C89692300080C4A /* Launch Screen.storyboard */,
 			);
 			name = "Example for XLEasyImageSelect";
 			path = XLEasyImageSelect;
@@ -278,6 +286,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				2552E4891C89692300080C4A /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +402,7 @@
 				6003F59E195388D20070C39A /* XLEAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XLEViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				2552E4871C8967EA00080C4A /* XLEDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

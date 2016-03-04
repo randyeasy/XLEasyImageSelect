@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "XLEasyImageSelect"
   s.version          = "0.1.0"
-  s.summary          = "A short description of XLEasyImageSelect."
+  s.summary          = "简单的图片选择器，类似于微信"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                    图片的批量选择，图片的单张选择（相册、拍照）编辑
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/XLEasyImageSelect"
+  s.homepage         = "https://github.com/randyeasy/XLEasyImageSelect"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "晓亮" => "yanxiaoliang@baijiahulian.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/XLEasyImageSelect.git", :tag => s.version.to_s }
+  s.author           = { "Randy" => "ouyaliang@163.com" }
+  s.source           = { :git => "https://github.com/randyeasy/XLEasyImageSelect.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -34,7 +35,16 @@ Pod::Spec.new do |s|
     'XLEasyImageSelect' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
+
+  s.dependency 'PureLayout'
+  s.dependency 'XLEasyKitUtils', '~> 0.1.0'
+  s.dependency 'LLSimpleCamera', '~> 4.1'
+
+s.prefix_header_contents =
+'#import <XLEasyKitUtils/XLEasyKitUtils.h>',
+'#import <PureLayout/PureLayout.h>',
+'#import "UIImage+XLEI.h"'
+
 end
