@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "XLEasyImageSelect"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "简单的图片选择器，类似于微信"
 
 # This description is used to generate tags and improve search results.
