@@ -171,7 +171,7 @@
             UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
             [button setTitle:@"自动" forState:UIControlStateNormal];
             [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-            [button setTitleColor:[UIColor xle_colorWithHexString:@"#F7C028"] forState:UIControlStateSelected];
+            [button setTitleColor:[UIColor XLE_colorWithHexString:@"#F7C028"] forState:UIControlStateSelected];
             [button addTarget:self action:@selector(flashAction:) forControlEvents:UIControlEventTouchUpInside];
             button.titleLabel.font = [UIFont systemFontOfSize:13];
             button;
@@ -187,7 +187,7 @@
             UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
             [button setTitle:@"打开" forState:UIControlStateNormal];
             [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-            [button setTitleColor:[UIColor xle_colorWithHexString:@"#F7C028"] forState:UIControlStateSelected];
+            [button setTitleColor:[UIColor XLE_colorWithHexString:@"#F7C028"] forState:UIControlStateSelected];
             [button addTarget:self action:@selector(flashAction:) forControlEvents:UIControlEventTouchUpInside];
             button.titleLabel.font = [UIFont systemFontOfSize:13];
             button;
@@ -203,7 +203,7 @@
             UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
             [button setTitle:@"关闭" forState:UIControlStateNormal];
             [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-            [button setTitleColor:[UIColor xle_colorWithHexString:@"#F7C028"] forState:UIControlStateSelected];
+            [button setTitleColor:[UIColor XLE_colorWithHexString:@"#F7C028"] forState:UIControlStateSelected];
             [button addTarget:self action:@selector(flashAction:) forControlEvents:UIControlEventTouchUpInside];
             button.titleLabel.font = [UIFont systemFontOfSize:13];
             button;
@@ -243,7 +243,7 @@
 - (UIView *)backgroundView{
     if (_backgroundView == nil) {
         _backgroundView = [[UIView alloc] initWithFrame:self.bounds];
-        _backgroundView.backgroundColor = [UIColor xle_colorWithHexString:@"#2C272B" alpha:0.9];
+        _backgroundView.backgroundColor = [UIColor XLE_colorWithHexString:@"#2C272B" alpha:0.9];
     }
     return _backgroundView;
 }

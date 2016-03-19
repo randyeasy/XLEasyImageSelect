@@ -77,7 +77,7 @@ static const CGFloat XLE_BATCH_FOOTER_VIEW_HEIGHT = 42;
     }
 
 
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithImage:[[UIImage xlei_imageNamed:@"xle_imageselect_back"] xle_imageWithRenderingOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithImage:[[UIImage xlei_imageNamed:@"xle_imageselect_back"] XLE_imageWithRenderingOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
     self.navigationItem.leftBarButtonItem = backButton;
     
     if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
@@ -159,7 +159,7 @@ static const CGFloat XLE_BATCH_FOOTER_VIEW_HEIGHT = 42;
                 
             } failureBlock:^(NSError *error) {
                 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:error.localizedFailureReason?:error.localizedDescription delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
-                [alert xle_showAlertViewWithCompleteBlock:^(NSInteger buttonIndex) {
+                [alert XLE_showAlertViewWithCompleteBlock:^(NSInteger buttonIndex) {
                     
                 }];
             }];

@@ -21,7 +21,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         _backgroundView = [[UIView alloc] initWithFrame:self.bounds];
-        _backgroundView.backgroundColor = [UIColor xle_colorWithHexString:@"#2C272B" alpha:0.9];
+        _backgroundView.backgroundColor = [UIColor XLE_colorWithHexString:@"#2C272B" alpha:0.9];
         [self addSubview:_backgroundView];
         [_backgroundView autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero];
     }

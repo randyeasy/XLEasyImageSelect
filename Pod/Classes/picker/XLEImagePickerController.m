@@ -31,7 +31,7 @@
         CGSize size = [UIScreen mainScreen].bounds.size;
         size.height = 64;
         [self.navigationBar setTranslucent:YES];
-        [self.navigationBar setBackgroundImage:[UIImage xle_imageWithColor:[UIColor xle_colorWithHexString:@"#2C272B"] size:size] forBarMetrics:UIBarMetricsDefault];
+        [self.navigationBar setBackgroundImage:[UIImage XLE_imageWithColor:[UIColor XLE_colorWithHexString:@"#2C272B"] size:size] forBarMetrics:UIBarMetricsDefault];
         [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
 
     }

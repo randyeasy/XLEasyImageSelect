@@ -78,8 +78,8 @@
 
 - (void)setupUI
 {
-    self.backgroundColor = [UIColor xle_colorWithHexString:@"#fafafa"];
-    [self xle_addTopBorderWithHeight:0.5 andColor:[UIColor xle_colorWithHexString:@"#dddddd"]];
+    self.backgroundColor = [UIColor XLE_colorWithHexString:@"#fafafa"];
+    [self XLE_addTopBorderWithHeight:0.5 andColor:[UIColor XLE_colorWithHexString:@"#dddddd"]];
     
     [self addSubview:self.browserButton];
     [self.browserButton autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero excludingEdge:ALEdgeTrailing];
@@ -97,8 +97,8 @@
             UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
             [button setTitle:@"预览" forState:UIControlStateNormal];
             button.titleLabel.font = [UIFont systemFontOfSize:17];
-            [button setTitleColor:[UIColor xle_colorWithHexString:@"#3d3c3c"] forState:UIControlStateNormal];
-            [button setTitleColor:[UIColor xle_colorWithHexString:@"#dddddd"] forState:UIControlStateDisabled];
+            [button setTitleColor:[UIColor XLE_colorWithHexString:@"#3d3c3c"] forState:UIControlStateNormal];
+            [button setTitleColor:[UIColor XLE_colorWithHexString:@"#dddddd"] forState:UIControlStateDisabled];
             button;
         });
         _browserButton.frame = CGRectMake(0, 0, 65, self.frame.size.height);

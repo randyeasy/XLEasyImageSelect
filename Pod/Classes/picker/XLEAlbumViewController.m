@@ -53,8 +53,8 @@ static NSString* const albumTableViewCellReuseIdentifier = @"albumTableViewCellR
         [self setNeedsStatusBarAppearanceUpdate];
     }
     
-    self.view.backgroundColor = [UIColor xle_colorWithHexString:@"#fafafa"];
-    self.tableView.backgroundColor = [UIColor xle_colorWithHexString:@"#fafafa"];
+    self.view.backgroundColor = [UIColor XLE_colorWithHexString:@"#fafafa"];
+    self.tableView.backgroundColor = [UIColor XLE_colorWithHexString:@"#fafafa"];
     
     UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStylePlain target:self action:@selector(cancelAction)];
     cancelButton.tintColor = [UIColor whiteColor];
@@ -160,7 +160,7 @@ static NSString* const albumTableViewCellReuseIdentifier = @"albumTableViewCellR
                               range:NSMakeRange(0, albumTitle.length)];
     [attributedString setAttributes:@{
                                       NSFontAttributeName : [UIFont systemFontOfSize:14.0f],
-                                      NSForegroundColorAttributeName : [UIColor xle_colorWithHexString:@"#999999"],
+                                      NSForegroundColorAttributeName : [UIColor XLE_colorWithHexString:@"#999999"],
                                       } range:NSMakeRange(albumTitle.length, numberString.length)];
     return attributedString;
     

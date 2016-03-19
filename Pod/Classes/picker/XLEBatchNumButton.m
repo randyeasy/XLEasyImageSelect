@@ -36,8 +36,8 @@
 
 - (void)setEnabled:(BOOL)enabled{
     [super setEnabled:enabled];
-    self.numValueLabel.backgroundColor = enabled?XLEI_TINT_COLOR:[UIColor xle_colorWithHexString:@"#dddddd"];
-    self.sendLabel.textColor = enabled?XLEI_TINT_COLOR:[UIColor xle_colorWithHexString:@"#dddddd"];
+    self.numValueLabel.backgroundColor = enabled?XLEI_TINT_COLOR:[UIColor XLE_colorWithHexString:@"#dddddd"];
+    self.sendLabel.textColor = enabled?XLEI_TINT_COLOR:[UIColor XLE_colorWithHexString:@"#dddddd"];
 }
 
 - (UILabel *)numValueLabel

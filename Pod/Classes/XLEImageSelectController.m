@@ -88,7 +88,7 @@
 - (void)showSelectController:(UIViewController *)parentVC
               selectCallback:(XLESelectImageCallback)callback;
 {
-    [UIActionSheet xle_showInView:[UIApplication sharedApplication].keyWindow.rootViewController.view withTitle:@"选择照片" cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@[@"相册",@"拍照"] tapBlock:^(UIActionSheet *actionSheet, NSInteger buttonIndex) {
+    [UIActionSheet XLE_showInView:[UIApplication sharedApplication].keyWindow.rootViewController.view withTitle:@"选择照片" cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@[@"相册",@"拍照"] tapBlock:^(UIActionSheet *actionSheet, NSInteger buttonIndex) {
         switch (buttonIndex) {
             case 0:
             {
@@ -154,7 +154,7 @@
                     cropConfig:(XLEImageCropConfig *)cropConfig
               selectCallback:(XLESelectImageCallback)callback;
 {
-    [UIActionSheet xle_showInView:[UIApplication sharedApplication].keyWindow.rootViewController.view withTitle:@"选择照片" cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@[@"相册",@"拍照"] tapBlock:^(UIActionSheet *actionSheet, NSInteger buttonIndex) {
+    [UIActionSheet XLE_showInView:[UIApplication sharedApplication].keyWindow.rootViewController.view withTitle:@"选择照片" cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@[@"相册",@"拍照"] tapBlock:^(UIActionSheet *actionSheet, NSInteger buttonIndex) {
         switch (buttonIndex) {
             case 0:
             {

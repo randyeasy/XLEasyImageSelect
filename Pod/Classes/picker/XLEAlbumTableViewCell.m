@@ -42,7 +42,7 @@
             label.font = [UIFont systemFontOfSize:18];
             label.textAlignment = NSTextAlignmentLeft;
             label.backgroundColor = [UIColor clearColor];
-            label.textColor = [UIColor xle_colorWithHexString:@"#3c3c3c"];
+            label.textColor = [UIColor XLE_colorWithHexString:@"#3c3c3c"];
             label;
         });
         [self.contentView addSubview:_nameLabel];

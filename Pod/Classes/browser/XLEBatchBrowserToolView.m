@@ -125,7 +125,7 @@ NSString *const XLE_BATCH_BROWSER_ACTION_USED       = @"used";
 - (UIView *)backgroundView{
     if (_backgroundView == nil) {
         _backgroundView = [[UIView alloc] initWithFrame:self.bounds];
-        _backgroundView.backgroundColor = [UIColor xle_colorWithHexString:@"#2C272B" alpha:0.9];
+        _backgroundView.backgroundColor = [UIColor XLE_colorWithHexString:@"#2C272B" alpha:0.9];
     }
     return _backgroundView;
 }

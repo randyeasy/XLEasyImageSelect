@@ -5,8 +5,8 @@ PODS:
     - LLSimpleCamera (~> 4.1)
     - PureLayout (~> 3.0.1)
     - XLEasyKitUtils (~> 0.1.0)
-  - XLEasyKitUtils (0.1.0):
-    - PureLayout
+  - XLEasyKitUtils (0.1.1):
+    - PureLayout (~> 3.0.1)
 
 DEPENDENCIES:
   - XLEasyImageSelect (from `../`)
@@ -19,6 +19,6 @@ SPEC CHECKSUMS:
   LLSimpleCamera: ed7813ce4827ff3e34c6af159c99b5b56e54d1c6
   PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
   XLEasyImageSelect: ffdaa9668fdb6353745d110b6fd620edb56c63fc
-  XLEasyKitUtils: 7c5d89e041f875b3b8301b2fbc5c25d5f8eb3410
+  XLEasyKitUtils: c9a5a492803b2075373e6daf35eab9c714719c22
 
 COCOAPODS: 0.39.0

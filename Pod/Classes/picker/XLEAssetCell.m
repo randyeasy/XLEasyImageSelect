@@ -58,7 +58,7 @@
             UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
             [button setImage:[UIImage xlei_imageNamed:@"xle_common_crop_checkbox_unchecked"] forState:UIControlStateNormal];
             [button setImage:[UIImage xlei_imageNamed:@"xle_duigou"] forState:UIControlStateSelected];
-            [button setBackgroundImage:[UIImage xle_imageWithColor:XLEI_TINT_COLOR size:CGSizeMake(24, 24)] forState:UIControlStateSelected];
+            [button setBackgroundImage:[UIImage XLE_imageWithColor:XLEI_TINT_COLOR size:CGSizeMake(24, 24)] forState:UIControlStateSelected];
             [button addTarget:self action:@selector(selectedAction) forControlEvents:UIControlEventTouchUpInside];
 
             button;

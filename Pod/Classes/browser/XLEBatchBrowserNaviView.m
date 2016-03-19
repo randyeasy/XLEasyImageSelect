@@ -116,7 +116,7 @@
             UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
             [button setImage:[UIImage xlei_imageNamed:@"xle_common_crop_checkbox_unchecked"] forState:UIControlStateNormal];
             [button setImage:[UIImage xlei_imageNamed:@"xle_duigou"] forState:UIControlStateSelected];
-            [button setBackgroundImage:[UIImage xle_imageWithColor:XLEI_TINT_COLOR size:CGSizeMake(24, 24)] forState:UIControlStateSelected];
+            [button setBackgroundImage:[UIImage XLE_imageWithColor:XLEI_TINT_COLOR size:CGSizeMake(24, 24)] forState:UIControlStateSelected];
             button;
         });
         _selectButton.layer.cornerRadius = 12;
@@ -128,7 +128,7 @@
 - (UIView *)backgroundView{
     if (_backgroundView == nil) {
         _backgroundView = [[UIView alloc] initWithFrame:self.bounds];
-        _backgroundView.backgroundColor = [UIColor xle_colorWithHexString:@"#2C272B" alpha:0.9];
+        _backgroundView.backgroundColor = [UIColor XLE_colorWithHexString:@"#2C272B" alpha:0.9];
     }
     return _backgroundView;
 }

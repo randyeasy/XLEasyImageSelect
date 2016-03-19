@@ -64,7 +64,7 @@
         if (authStatus == AVAuthorizationStatusRestricted || authStatus == AVAuthorizationStatusDenied)
         {
             UIAlertView *show = [[UIAlertView alloc] initWithTitle:@"提示" message:@"请去隐私设置打开应用的\"相机\"访问权限" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
-            [show xle_showAlertViewWithCompleteBlock:^(NSInteger buttonIndex) {
+            [show XLE_showAlertViewWithCompleteBlock:^(NSInteger buttonIndex) {
                 if (buttonIndex==1) {
                     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
                         NSURL *appSettings = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
